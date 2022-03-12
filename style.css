@@ -11,6 +11,7 @@
 /* font-family: 'Big Shoulders Display', cursive; */
 
 body {
+    position: relative;
     background: var(--Very-light-gray);
     margin: 0;
     padding: 0;
@@ -54,7 +55,7 @@ li:nth-of-type(3) {
     border-bottom-right-radius: 10px;
 }
 h1 {
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
     color: white;
 }
 p {
@@ -73,16 +74,19 @@ button {
     background: inherit;
     color: white;
     border: 2px solid white;
+    cursor: pointer;
 }
 .suv:hover {
     background: inherit;
     color: white;
     border: 2px solid white;
+    cursor: pointer;
 }
 .luxury:hover {
     background: inherit;
     color: white;
     border: 2px solid white;
+    cursor: pointer;
 }
 .sedan {
     color: var(--Bright-orange);
@@ -119,8 +123,10 @@ button {
 }
 
 .attribution { 
+    position: absolute;
     font-size: 11px; 
     text-align: center;
+    bottom: 10px;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
