@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+/* font-family: 'Lexend Deca', sans-serif; */
+/* font-family: 'Big Shoulders Display', cursive; */
 :root {
     --Bright-orange: hsl(31, 77%, 52%);
     --Dark-cyan: hsl(184, 100%, 22%);
@@ -5,10 +9,7 @@
     --Transparent-white: hsla(0, 0%, 100%, 0.75); /* PARAGRAPHS */
     --Very-light-gray: hsl(0, 0%, 95%);
 }
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
-/* font-family: 'Lexend Deca', sans-serif; */
-/* font-family: 'Big Shoulders Display', cursive; */
+
 
 body {
     position: relative;
